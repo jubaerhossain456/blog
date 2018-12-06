@@ -1,0 +1,269 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+header{
+    font-size:  18px;
+    background:  #1A54E7;
+}
+.container{
+    width:  1200px;
+    margin: 0 auto;
+    overflow:  hidden;
+}
+.logo{
+    display:  inline-block;
+    min-width: 14.5%;
+    text-align:  right;
+    font-size:  20px;
+}
+.logo span{
+    font-weight: 900;
+}
+.logo h3{
+    display:  inherit;
+    font-weight:  200;
+    font-size:  20px;
+}
+.search-nav{
+    display:  inline-block;
+}
+.search-nav ul{
+    list-style:  none;
+}
+.search-nav ul li{
+    display:  inline-block;
+    margin-right: 30px;
+}
+.search-nav ul li:hover{}
+.search-nav ul li.search-icon{
+    padding: 15px;
+    margin-right: 20px;
+    background: #F7F7F7;
+}
+.search-nav ul li a{
+    text-decoration: none;
+    color: #B1B1B1;
+    font-size: 18px;
+}
+.search-nav ul li a:hover{}
+.menu{
+    display:  inline-block;
+    float: right;
+}
+.menu ul{}
+.menu ul li{
+    display: inline-block;
+    margin-right: 0px;
+    padding: 15px;
+}
+.menu ul li:hover{
+    border-bottom: 3px solid #1A54E7;
+}
+.menu ul li a{
+    text-decoration:  none;
+    color: #1A54E7;
+}
+.menu ul li a i{}
+.nav-bars{
+    min-width: 84.1%;
+    display:  inline-block;
+    background:  #fff;
+}
+
+
+.banner-section{
+    background:  url(../img/banner-img.png);
+    background-size: cover;
+    min-height:  90vh;
+    color: #fff;
+    position:  relative;
+}
+.left-btn{
+    display:  inline-block;
+    top: 50%;
+    position:  absolute;
+}
+.left-btn img{}
+.banner-text{
+    position:  absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align:  center;
+}
+.banner-text img{}
+.banner-text h2{
+    font-size: 35px;
+}
+.banner-caption{
+    bottom:  0;
+    position:  absolute;
+    width: inherit;
+    margin-bottom:  40px;
+}
+.img-span{
+    float: left;
+    padding: 10px 15px;
+    background-color: #1A54E7;
+    border-radius: 1px;
+    font-weight: 600;
+    color: #fff;
+}
+.img-caption{
+    float:  right;
+    padding: 10px 15px;
+}
+.img-caption a{}
+.right-btn{
+    right:  0;
+    position:  absolute;
+    top: 50%;
+}
+.right-btn img{}
+
+
+.double-img-section{
+    background-color: #F6F6F6;
+}
+.col-6{
+    width: 50%;
+    float:  left;
+}
+.double-img-item{
+    padding: 30px 0;
+    box-sizing:  border-box;
+}
+.double-img{
+    position:  relative;
+}
+.double-img img{}
+.double-img span{
+    position:  absolute;
+    left: 0;
+    bottom: 10%;
+}
+.black-caption{}
+
+
+.large-img-section{
+    color: #fff;
+}
+.large-section{}
+.col-12{
+	width: 100%;
+	float: left;
+}
+.large-img{}
+.large-img img{}
+.large-img h2{
+    position:  absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 35px;
+}
+.large-img p{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 19px;
+    width: 35%;
+}
+.positioning{
+    position:  relative;
+}
+
+.grid-section{
+    padding: 70px 0;
+}
+.col-4{
+    width:  33.33%;
+    float:  left;
+}
+.grid-item{
+    padding: 25px 0;
+}
+.grid-img{
+    position:  relative;
+}
+.grid-img img{
+    max-width:  100%;
+}
+
+
+.newsletter-section{
+    background: url(../img/newsletter.png);
+    background-size:  cover;
+    min-height:  35vh;
+    position:  relative;
+    color: #fff;
+}
+.newsletter{
+    text-align:  center;
+    position:  absolute;
+    top: 20%;
+    left: 35%;
+}
+.newsletter h2{
+    font-size:  40px;
+}
+.newsletter h4{}
+.newsletter form{
+    margin: 25px 0;
+    position: relative;
+}
+.newsletter form input[type="email"]{
+    margin: 0 auto;
+    background-color:  #2C6DFF;
+    border: 0;
+    border-radius:  50px;
+    padding: 15px 100px;
+}
+.newsletter form input[type="submit"]{
+    border-radius:  50px;
+    padding: 13px 30px;
+    background: #fff;
+    border: 0;
+    color: #1A54E7;
+    font-size:  18px;
+    position:  absolute;
+    left: 70%;
+}
+
+
+footer{
+    min-height:  25vh;
+}
+.footer-center{
+    text-align:  center;
+    padding: 30px 0;
+}
+.footer-center p{}
+
+.float-left{
+	float: left;
+	padding-left: 0;
+	margin-bottom: 10px;
+}
+.red{background-color: #D90446;}
+.green{}
+.purple{}
+.black{
+    background-color: #000000;
+}
+.large-caption{
+    position:  absolute;
+    top:  80%;
+    right:  0;
+}
+.grid-img-span{
+	position: absolute;
+    top: 70%;
+    left: 0;
+}
+
+
+
+
